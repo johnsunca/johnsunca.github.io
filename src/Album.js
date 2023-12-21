@@ -15,6 +15,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import ClientData from './ClientData';
 
 function Copyright() {
   return (
@@ -65,6 +66,9 @@ export default function Album() {
             >
               Album layout
             </Typography>
+            
+            <ClientData />
+            
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
               Something short and leading about the collection below—its contents,
               the creator, etc. Make it short and sweet, but not too short so folks
